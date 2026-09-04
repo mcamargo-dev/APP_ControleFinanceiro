@@ -53,7 +53,7 @@ class Main2 : ComponentActivity() {
         }
     }
 }
-
+//vai commmit
 @Preview(showBackground = true)
 @Composable
 fun dashboardVisaoGeral() {
