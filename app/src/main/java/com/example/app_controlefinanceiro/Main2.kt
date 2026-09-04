@@ -150,11 +150,11 @@ fun dashboardVisaoGeral() {
                             }
 
                             Row {
-                                IconButton(onClick = { /* NÃO FAZ NADA CONFORME PEDIDO */ }) {
+                                IconButton(onClick = {}) {
                                     Icon(Icons.Filled.Edit, contentDescription = "Editar", tint = Color.Gray)
                                 }
                                 Spacer(modifier = Modifier.width(8.dp))
-                                IconButton(onClick = { mostrarTransacao = false }) { // FUNCIONA - SOME COM O CARD
+                                IconButton(onClick = { mostrarTransacao = false }) {
                                     Icon(Icons.Filled.Delete, contentDescription = "Deletar", tint = Color.Red)
                                 }
                             }
